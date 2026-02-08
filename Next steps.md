@@ -14,8 +14,6 @@
 
 
 
-* *Dashboard:\*\* Combine all KPIs and visualizations in a single notebook (`04\_dashboard.ipynb`) for a complete view of business performance.*
-* *The dashboard will be a scrollable normal .ipynb file where we will import necessary tool from src folder to make the dashboard clean and show only necessary parts.*  
-
+* 
 
 
