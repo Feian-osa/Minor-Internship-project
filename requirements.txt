@@ -1,2 +1,1 @@
 Python packages: pandas, numpy, matplotlib, seaborn, jupyter
-and vscode or any other programming environment for src folder files to run .py files
