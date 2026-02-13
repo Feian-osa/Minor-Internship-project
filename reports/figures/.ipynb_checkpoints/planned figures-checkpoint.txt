@@ -1,0 +1,3 @@
+sales_trend.png
+category_profit.png
+discount_vs_profit.png
