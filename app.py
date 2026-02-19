@@ -32,6 +32,7 @@ st.plotly_chart(fig_scatter)
 ##open terminal and run the following command to start the Streamlit app:
 # pip install streamlit 
 # pip install plotly
+#venv\Scripts\activate (create venv and activate it if you haven't already)
 # streamlit run "app.py"(the terminal should be in the same directory as app.py)
 #install streamlit and plotly if you haven't already:
 
