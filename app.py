@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px 
 
 # Load Excel file
-rfm = pd.read_excel("category_summary.xlsx")  # make sure the file is in the same folder as app.py
+rfm = pd.read_excel("category_summary.xlsx") 
 
 st.title("Superstore RFM Dashboard")
 st.dataframe(rfm)
@@ -17,9 +17,9 @@ import plotly.express as px
 
 fig_scatter = px.scatter(
     rfm,
-    x='Recency_Mean',       # use Recency_Mean instead of Recency
-    y='Monetary_Mean',      # use Monetary_Mean
-    size='Frequency_Mean',  # use Frequency_Mean
+    x='Recency_Mean',      
+    y='Monetary_Mean',      
+    size='Frequency_Mean',  
     color='Cluster',
     hover_data=['Recency_Mean', 'Frequency_Mean', 'Monetary_Mean']
 )
