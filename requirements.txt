@@ -1,1 +1,0 @@
-Python packages: pandas, numpy, matplotlib, seaborn, jupyter
